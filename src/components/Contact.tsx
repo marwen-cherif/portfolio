@@ -5,7 +5,7 @@ import { styles } from "../styles";
 import { slideIn } from "../utils/motion";
 import SectionWrapper from "../atoms/SectionWrapper.tsx";
 import { MailIcon } from "../atoms/Icons/MailIcon/MailIcon.tsx";
-import { Button } from "./Experience.styles.ts";
+import { Button } from "../atoms/Button.ts";
 
 export const Contact = () => {
   const [form, setForm] = useState({

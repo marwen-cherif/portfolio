@@ -128,32 +128,32 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Front-End Developer",
-    company_name: "Cover Hunt",
+    title: "Fullstack web developer",
+    company_name: "Talan",
     icon: coverhunt,
     iconBg: "#333333",
-    date: "Aug 2021 - Feb 2022",
+    date: "Jul 2014 - Jan 2018",
   },
   {
-    title: "Mentor (Volunteer)",
-    company_name: "Microverse",
+    title: "RPA developer",
+    company_name: "Addstones",
     icon: microverse,
     iconBg: "#333333",
-    date: "Mar 2022 - May 2022",
+    date: "Feb 2018 - Jun 2019",
   },
   {
-    title: "Junior Software Engineer",
-    company_name: "Kelhel",
+    title: "Front-end developer",
+    company_name: "ReversIO",
     icon: kelhel,
     iconBg: "#333333",
-    date: "May 2022 - Oct 2022",
+    date: "Jul 2019 - Jul 2023",
   },
   {
-    title: "Full Stack Developer",
-    company_name: "Diversity Cyber Council",
+    title: "Front-end team lead",
+    company_name: "ReversIO",
     icon: dcc,
     iconBg: "#333333",
-    date: "Sep 2022 - Present",
+    date: "Jul 2023 - Present",
   },
 ];
 

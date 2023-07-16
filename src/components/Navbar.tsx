@@ -1,8 +1,8 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { close, menu, logo } from "../assets";
+import { close, menu } from "../assets";
+import { Logo } from "./Navbar.styles.ts";
 
 export const Navbar = () => {
   const [active, setActive] = useState("");
@@ -14,7 +14,7 @@ export const Navbar = () => {
       top-0 z-20 bg-flashWhite sm:opacity-[0.97] xxs:h-[12vh]`}
     >
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
-        <Link
+        <Logo
           to="/"
           className="flex items-center gap-2"
           onClick={() => {
@@ -22,12 +22,8 @@ export const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img
-            src={logo}
-            alt="logo"
-            className="sm:w-[150px] sm:h-[50px] w-[150px] h-[45px] object-contain"
-          />
-        </Link>
+          Marwen Cherif
+        </Logo>
         <ul className="list-none hidden sm:flex flex-row gap-14 mt-2">
           {navLinks.map((nav) => (
             <li

@@ -3,7 +3,7 @@ import { FC } from "react";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../utils/motion.ts";
 import { github } from "../../assets";
-import { LinkButton } from "../Experience.styles.ts";
+import { LinkButton } from "../../atoms/Button.ts";
 import VisibilityIcon from "../../atoms/Icons/VisibilityIcon/VisibilityIcon.tsx";
 
 interface ProjectCardProps {

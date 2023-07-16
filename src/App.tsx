@@ -6,7 +6,7 @@ import { ThemeProvider } from "styled-components";
 import { About } from "./components/About.tsx";
 import { Tech } from "./components/Tech.tsx";
 import { Projects } from "./components/Projects/Projects.tsx";
-import { Experience } from "./components/Experience.tsx";
+import { Experience } from "./components/Experience/Experience.tsx";
 import { Contact } from "./components/Contact.tsx";
 
 function App() {

@@ -3,8 +3,7 @@ import nairobi from "./backgrounds/nairobi.png";
 import whiteabstract from "./backgrounds/white-abstract.png";
 import worldmap from "./backgrounds/world-map.png";
 
-import logo from "./logo/logo-no-background.png";
-import logotext from "./logo/logo-no-background.png";
+import logo from "./logo/logo-no-background.svg";
 
 import marwen from "./personal/marwen.png";
 
@@ -69,7 +68,6 @@ export {
   whiteabstract,
   worldmap,
   logo,
-  logotext,
   marwen,
   backend,
   ux,
