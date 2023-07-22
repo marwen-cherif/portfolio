@@ -10,8 +10,13 @@ jobs:
     runs-on: ubuntu-latest
     name: Build and Push
     steps:
+
       - name: git-checkout
         uses: actions/checkout@v2
+
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 8.6.7
 
       - name: Install all dependencies
         run: pnpm install
