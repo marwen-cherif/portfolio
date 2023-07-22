@@ -63,7 +63,7 @@ export const Experience = () => {
               sm:mt-[22px] mt-[16px] hover:bg-battleGray
               hover:text-eerieBlack transition duration-[0.2s]
               ease-in-out"
-              href={"/CV_en_anglais.pdf"}
+              href={"/Marwen_Cherif_EN.pdf"}
               target="_blank"
             >
               MY RESUME

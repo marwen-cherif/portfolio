@@ -8,6 +8,7 @@ import { Tech } from "./components/Tech.tsx";
 import { Projects } from "./components/Projects/Projects.tsx";
 import { Experience } from "./components/Experience/Experience.tsx";
 import { Contact } from "./components/Contact.tsx";
+import { projects } from "./constants";
 
 function App() {
   const theme = {
@@ -31,7 +32,7 @@ function App() {
             <Tech />
           </div>
 
-          <Projects />
+          {projects && projects.length > 0 && <Projects />}
 
           <div
             className="bg-experience bg-cover bg-center bg-no-repeat

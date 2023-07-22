@@ -4,7 +4,7 @@ import Loader from "../Loader.tsx";
 import { OrbitControls, Preload } from "@react-three/drei";
 import { Ball } from "./Ball.tsx";
 
-export const BallCanvas = ({ icon }: any) => {
+export const BallCanvas = ({ icon }: { icon: string }) => {
   return (
     <Canvas frameloop="always" gl={{ preserveDrawingBuffer: true }}>
       <Suspense fallback={<Loader />}>

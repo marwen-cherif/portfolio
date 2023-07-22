@@ -24,6 +24,7 @@ export const Navbar = () => {
         >
           Marwen Cherif
         </Logo>
+
         <ul className="list-none hidden sm:flex flex-row gap-14 mt-2">
           {navLinks.map((nav) => (
             <li

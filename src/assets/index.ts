@@ -48,6 +48,9 @@ import coverhunt from "./company/coverhunt.png";
 import dcc from "./company/dcc.png";
 import kelhel from "./company/kelhel.png";
 import microverse from "./company/microverse.png";
+import revers from "./company/revers.png";
+import talan from "./company/talan.png";
+import addstones from "./company/addstones.png";
 
 import komikult from "./projects/komikult.png";
 import leaderboard from "./projects/leaderboard.png";
@@ -108,4 +111,7 @@ export {
   kelhel,
   microverse,
   nextJs,
+  revers,
+  addstones,
+  talan,
 };
