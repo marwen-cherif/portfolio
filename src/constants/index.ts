@@ -281,6 +281,6 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
-].filter((x) => !!x);
+].filter((x) => x !== undefined) as { id: string; title: string }[];
 
 export { services, technologies, experiences, projects };

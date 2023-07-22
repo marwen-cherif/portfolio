@@ -10,11 +10,13 @@ export const BallCanvas = ({ icon }: { icon: string }) => {
       <Suspense fallback={<Loader />}>
         <OrbitControls
           enableZoom={false}
-          position0={{
-            x: 0,
-            y: 0,
-            z: 0,
-          }}
+          position0={
+            {
+              x: 0,
+              y: 0,
+              z: 0,
+            } as any
+          }
         />
         <Ball imgUrl={icon} />
       </Suspense>
