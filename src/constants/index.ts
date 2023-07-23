@@ -1,27 +1,25 @@
 import {
-  frontend,
+  addstones,
+  azure,
   backend,
-  ux,
-  prototyping,
-  javascript,
-  typescript,
-  html,
   css,
+  docker,
+  frontend,
+  graphql,
+  html,
+  javascript,
+  jest,
+  nextJs,
+  nodejs,
+  postgresql,
+  prototyping,
   reactjs,
   redux,
-  tailwind,
-  nodejs,
-  git,
-  docker,
-  postgresql,
-  nextJs,
-  graphql,
-  jest,
-  styledComponents,
-  azure,
-  addstones,
   revers,
+  styledComponents,
   talan,
+  typescript,
+  ux,
 } from "../assets/index.ts";
 
 const services = [
@@ -73,10 +71,6 @@ const technologies = [
     icon: nextJs,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
     name: "Node JS",
     icon: nodejs,
   },
@@ -89,20 +83,16 @@ const technologies = [
     icon: postgresql,
   },
   {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
-  {
     name: "Styled-components",
     icon: styledComponents,
   },
   {
     name: "Jest",
     icon: jest,
+  },
+  {
+    name: "docker",
+    icon: docker,
   },
   {
     name: "Azure",

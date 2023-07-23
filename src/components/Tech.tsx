@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
-import { BallCanvas } from "../atoms/BallCanvas/BallCanvas";
 import { technologies } from "../constants";
 import { styles } from "../styles";
 import { textVariant } from "../utils/motion";
 import SectionWrapper from "../atoms/SectionWrapper.tsx";
+import { $Image } from "./Tech.styles.ts";
 
 export const Tech = () => {
   return (
@@ -15,8 +15,12 @@ export const Tech = () => {
 
       <div className="flex flex-wrap justify-center gap-10 mt-14">
         {technologies.map((technology) => (
-          <div className="w-28 h-28" key={technology.name}>
-            <BallCanvas icon={technology.icon} />
+          <div className="w-20 h-20" key={technology.name}>
+            <$Image
+              title={technology.name}
+              alt={technology.name}
+              src={technology.icon}
+            />
           </div>
         ))}
       </div>

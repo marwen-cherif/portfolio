@@ -1,3 +1,5 @@
+import { Toaster } from "react-hot-toast";
+
 import "./App.css";
 import { BrowserRouter } from "react-router-dom";
 import { Hero } from "./components/Hero";
@@ -17,6 +19,8 @@ function App() {
 
   return (
     <ThemeProvider theme={theme}>
+      <Toaster />
+
       <BrowserRouter>
         <div className="relative z-0">
           <div>
